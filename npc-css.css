@@ -10,16 +10,11 @@ h2{
     color: cornflowerblue;
     }
 h3{
-    color: floralwhite;
+    color: chocolate;
     }
-h4{
-    color: cornsilk;
-    }
-h5{
-    color: cornsilk;
-    }
-h6{
-    color: cornsilk;
+
+img {
+    max-width: 70%;
     }
 
 p{
