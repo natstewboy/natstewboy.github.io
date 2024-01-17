@@ -35,8 +35,8 @@ a:active{
     
 .mediacontainer {
     gap: 5%;
-    background-color: antiquewhite;
-    color:chocolate;
+    background-color: chocolate;
+    color:antiquewhite;
     margin: 3%;
     padding: 1%;
     justify-content: center;
