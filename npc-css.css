@@ -1,6 +1,6 @@
 body{
     background-color:antiquewhite;
-    "Comic Sans MS", "Comic Sans", cursive;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
     }
 
 h1{
@@ -26,11 +26,11 @@ p{
     color: cornflowerblue;
     }
 
-link{
-    color: cornflowerblue;
+a:link{
+    color: purple;
     }
 
-link:after{
+a:active{
     color:cadetblue
     }
 
