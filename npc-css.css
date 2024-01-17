@@ -1,6 +1,6 @@
 body{
     background-color:antiquewhite;
-    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    font-family:"Comic Sans MS", "Comic Sans";
     }
 
 h1{
@@ -33,6 +33,20 @@ a:link{
 a:active{
     color:cadetblue
     }
+
+.mediaparent {
+    background-color: antiquewhite;
+}
+    
+.mediacontainer {
+    gap: 5%;
+    background-color: antiquewhite;
+    color:chocolate;
+    margin: 3%;
+    padding: 1%;
+    justify-content: center;
+    border-radius: 3px;
+}
 
     /* 
     tips to reference things more specifically than name
