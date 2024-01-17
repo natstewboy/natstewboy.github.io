@@ -8,6 +8,7 @@ h1{
     }
 h2{
     color: maroon;
+    font-weight: bolder;
     }
 h3{
     color: antiquewhite;
@@ -38,9 +39,8 @@ a:active{
     background-color: chocolate;
     color:antiquewhite;
     margin: 3%;
-    padding: 20%;
+    padding: 10%;
     justify-content: center;
-    border-radius: 3px;
 }
 
     /* 
