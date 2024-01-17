@@ -7,10 +7,10 @@ h1{
     color: chocolate;
     }
 h2{
-    color: cornflowerblue;
+    color: maroon;
     }
 h3{
-    color: chocolate;
+    color: antiquewhite;
     }
 
 img {
@@ -38,7 +38,7 @@ a:active{
     background-color: chocolate;
     color:antiquewhite;
     margin: 3%;
-    padding: 1%;
+    padding: 20%;
     justify-content: center;
     border-radius: 3px;
 }
