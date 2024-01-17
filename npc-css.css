@@ -1,0 +1,49 @@
+body{
+    background-color:antiquewhite;
+    "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+h1{
+    color: chocolate;
+    }
+h2{
+    color: cornflowerblue;
+    }
+h3{
+    color: floralwhite;
+    }
+h4{
+    color: cornsilk;
+    }
+h5{
+    color: cornsilk;
+    }
+h6{
+    color: cornsilk;
+    }
+
+p{
+    color: cornflowerblue;
+    }
+
+link{
+    color: cornflowerblue;
+    }
+
+link:after{
+    color:cadetblue
+    }
+
+    /* 
+    tips to reference things more specifically than name
+    -name tag selector ("p")
+    -decendent selector ("p strong")
+    -id selector (insert id="idlabel" into the specific paragraph you want to change, then ("#idlabel"))
+    -classes selector (insert class="insertlabelhere" into the text, then (".insertclassnamehere")
+
+    nav{
+    margin: 0;
+    background-color: bisque;
+    border: 600px;
+}
+    */
