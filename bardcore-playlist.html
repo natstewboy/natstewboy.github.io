@@ -24,6 +24,7 @@
             <br>
             <br>
             
+            <script>
             {
                 "collaborative": false,
                 "description": "string",
@@ -189,6 +190,25 @@
                 "type": "string",
                 "uri": "string"
               }
+
+            </script>
+
+            <h1>NASA Astronomy Picture of the Day</h1>
+    <div id="apod"></div>
+
+    <script>
+        // Make a request to the NASA APOD API
+        fetch('https://api.nasa.gov/planetary/apod?api_key=YOUR_API_KEY')
+            .then(response => response.json())
+            .then(data => {
+                // Update the 'apod' div with the APOD image and explanation
+                document.getElementById('apod').innerHTML = `
+                    <img src="${data.url}" alt="${data.title}">
+                    <p>${data.explanation}</p>
+                `;
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
         </main>
         <footer>
         </footer>
